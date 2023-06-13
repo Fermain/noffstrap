@@ -1,9 +1,9 @@
 {
-  "name": "@noffstrap/parent",
+  "name": "@noffstrap/child",
   "version": "0.0.0",
-  "description": "The parent theme that contains core functionality for this project.",
+  "description": "The child theme that can be customised on a per use basis without overwriting the parent theme files.",
   "keywords": [
-    "Parent",
+    "Child",
     "theme",
     "wordpress",
     "woocommerce",
@@ -12,7 +12,7 @@
   "author": "Fermain <Fermain@users.noreply.github.com>",
   "homepage": "https://github.com/Fermain/noffstrap#readme",
   "license": "ISC",
-  "main": "src/js/index.js",
+  "main": "lib/child.js",
   "directories": {
     "src": "src"
   },
@@ -22,9 +22,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Fermain/noffstrap.git"
-  },
-  "scripts": {
-    "test": "node ./__tests__/main.test.js"
   },
   "bugs": {
     "url": "https://github.com/Fermain/noffstrap/issues"
